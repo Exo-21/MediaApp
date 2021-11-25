@@ -1,0 +1,21 @@
+QTreeView {
+    background-color: rgba(27, 29, 35, 200);
+}
+
+QTreeView::item {
+    height: 40px;
+    color: rgba(255, 255, 255, 200);
+}
+
+QTreeView::branch {
+    color: rgba(255, 255, 255, 200);
+}
+
+QTreeView::branch:has-children{
+    background-color: rgba(0,77,153, 200);
+}
+
+QTreeView::branch:!has-children{
+    background-color: rgba(0,100,0, 200);
+}
+

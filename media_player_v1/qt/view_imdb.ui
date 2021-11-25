@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>View_Imdb</class>
+ <widget class="QWidget" name="View_Imdb">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>1001</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,1,7,1,1,1,1,1,1,1,1,1,1,1,1,1,1">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_fullTitle">
+       <property name="text">
+        <string>Title</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_fullTitle">
+       <property name="text">
+        <string>Title</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_type">
+       <property name="text">
+        <string>Type</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_type">
+       <property name="text">
+        <string>Type</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_year">
+       <property name="text">
+        <string>Year</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_year">
+       <property name="text">
+        <string>Year</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_image">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_releaseDate">
+       <property name="text">
+        <string>Release date</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_releaseDate">
+       <property name="text">
+        <string>Release date</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_runtimeMins">
+       <property name="text">
+        <string>Runtime</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_runtimeMins">
+       <property name="text">
+        <string>Runtime</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_plot">
+       <property name="text">
+        <string>Plot</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_plot">
+       <property name="text">
+        <string>Plot</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_awards">
+       <property name="text">
+        <string>Awards</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_awards">
+       <property name="text">
+        <string>Awards</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_directors">
+       <property name="text">
+        <string>Directors</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_directors">
+       <property name="text">
+        <string>Directors</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QLabel" name="label_writers">
+       <property name="text">
+        <string>Writers</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_writers">
+       <property name="text">
+        <string>Writers</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QLabel" name="label_stars">
+       <property name="text">
+        <string>Stars</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_stars">
+       <property name="text">
+        <string>Stars</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_11">
+     <item>
+      <widget class="QLabel" name="label_genres">
+       <property name="text">
+        <string>Genres</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_genres">
+       <property name="text">
+        <string>Genres</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_13">
+     <item>
+      <widget class="QLabel" name="label_languages">
+       <property name="text">
+        <string>Languages</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_languages">
+       <property name="text">
+        <string>Languages</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_14">
+     <item>
+      <widget class="QLabel" name="label_contentRating">
+       <property name="text">
+        <string>Content rating</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_contentRating">
+       <property name="text">
+        <string>Content rating</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_15">
+     <item>
+      <widget class="QLabel" name="label_imdbRating">
+       <property name="text">
+        <string>imDb rating</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_imdbRating">
+       <property name="text">
+        <string>imDb rating</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_16">
+     <item>
+      <widget class="QLabel" name="label_imdbRatingVotes">
+       <property name="text">
+        <string>imDb rating votes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_imdbRatingVotes">
+       <property name="text">
+        <string>imDb rating votes</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_17">
+     <item>
+      <widget class="QLabel" name="label_metacriticRating">
+       <property name="text">
+        <string>Metacritic rating</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_metacriticRating">
+       <property name="text">
+        <string>Metacritic rating</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_18">
+     <item>
+      <widget class="QLabel" name="label_boxOffice">
+       <property name="text">
+        <string>Box office</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="value_boxOffice">
+       <property name="text">
+        <string>Box office</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

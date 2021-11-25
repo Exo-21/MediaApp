@@ -1,0 +1,157 @@
+QWidget#centralwidget
+{
+	background-color: rgb(44, 49, 60);
+}
+
+QLabel
+{
+	color: rgb(210, 210, 210);
+}
+
+QPushButton
+{
+	background-color: rgba(27, 29, 35, 200);
+	color: #FFFFFF;
+}
+
+QFrame #frame_left_menu
+{
+	background-color: rgba(27, 29, 35, 200);
+	min-width: 70px;
+}
+
+QFrame#frame_grip
+{
+	background-color: rgba(27, 29, 35, 200);
+}
+
+QFrame#frame_top_info
+{
+	background-color: rgb(39, 44, 54);
+}
+
+QFrame#frame_icon_top_bar
+{
+	background: transparent;
+	background-image: url(:/16x16/icons/16x16/cil-terminal.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QFrame#frame_label_top_btns
+{
+	background-color: rgb(27, 29, 35);
+}
+
+QFrame#frame_content_right
+{
+	background-color: rgb(44, 49, 60);
+}
+
+QPushButton#btn_minimize
+{
+	background-image: url(:/16x16/icons/16x16/cil-window-minimize.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(27, 29, 35);
+}
+
+QPushButton#btn_minimize:hover
+{
+	background-color: rgb(33, 37, 43);
+}
+QPushButton#btn_minimize:pressed
+{
+	background-color: rgb(85, 170, 255);
+}
+
+QPushButton#btn_maximize_restore
+{
+	background-image: url(:/16x16/icons/16x16/cil-window-restore.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(27, 29, 35);
+}
+
+QPushButton#btn_maximize_restore:hover
+{
+	background-color: rgb(33, 37, 43);
+}
+QPushButton#btn_maximize_restore:pressed
+{
+	background-color: rgb(85, 170, 255);
+}
+
+QPushButton#btn_close
+{
+	background-image: url(:/16x16/icons/16x16/cil-x.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(27, 29, 35);
+}
+
+QPushButton#btn_close:hover
+{
+	background-color: rgb(33, 37, 43);
+}
+QPushButton#btn_close:pressed
+{
+	background-color: rgb(85, 170, 255);
+}
+
+QPushButton#btn_toggle_menu
+{
+	background-image: url(:/24x24/icons/24x24/cil-menu.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(27, 29, 35);
+}
+
+QPushButton#btn_toggle_menu:hover
+{
+	background-color: rgb(33, 37, 43);
+}
+QPushButton#btn_toggle_menu:pressed
+{
+	background-color: rgb(85, 170, 255);
+}
+
+QPushButton.pageActive
+{
+	border-right: 5px solid rgb(85, 170, 255);
+}
+
+QTabWidget::tab{
+    color: #fff;
+    background #000;
+}
+
+QScrollArea{
+    background: #fff;
+    color: #fff;
+}
+
+QTreeView {
+    background-color: rgba(27, 29, 35, 200);
+}
+
+QTreeView::item {
+    height: 40px;
+    color: rgba(255, 255, 255, 200);
+}
+
+QTreeView::branch {
+    color: rgba(255, 255, 255, 200);
+}
+
+QTreeView::branch:has-children{
+    background-color: rgba(0,77,153, 200);
+}
+
+QTreeView::branch:!has-children{
+    background-color: rgba(0,100,0, 200);
+}
